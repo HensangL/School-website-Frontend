@@ -25,17 +25,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
-                <span>Banasthali, Balaju, Kathmandu, Nepal</span>
+                <span>Banasthali, Ithari-1, Sunsari, Nepal</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">✉️</span>
-                <a href="mailto:info@samriddhischool.edu.np" className="hover:text-gray-300">
-                  info@samriddhischool.edu.np
+                <a href="hensangl.np" className="hover:text-gray-300">
+                  lamahensang100@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">📞</span>
-                <span>01-4970590, 4970591</span>
+                <span>9746969899</span>
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-300 mt-8 pt-6 text-center text-sm text-gray-200">
-          <p>© {new Date().getFullYear()} Samriddhi School. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} School. All rights reserved.</p>
         </div>
       </footer>
     </div>

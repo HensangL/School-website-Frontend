@@ -24,7 +24,7 @@ function Carousel() {
   return (
     <div className="relative w-full h-full overflow-hidden">
       {/* Carousel Container */}
-      <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+      <div className="flex transition-transform duration-500 ease-in-out " style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
           <div key={index} className="w-full h-180 flex-shrink-0">
             <img
@@ -42,9 +42,9 @@ function Carousel() {
          <button
          key={index}
          onClick={() => goToSlide(index)}
-         className={`w-30 h-30 overflow-hidden border-2 transition-all  
+         className={`w-30 h-30 rounded-full  overflow-hidden border-2 transition-all  
                      ${currentIndex === index ? 'border-white scale-110' : 'border-gray-400 opacity-50'}
-                     hover:border-white hover:scale-110 hover:opacity-100 hover:rounded-full`}
+                     hover:border-white hover:scale-105 hover:opacity-100 `}
        >
        
             <img
